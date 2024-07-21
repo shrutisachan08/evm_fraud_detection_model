@@ -1,7 +1,7 @@
 Deployment URL : https://evmfrauddetectionmodel-xcj7d6ggnxpjec4x4rmpy9.streamlit.app/
+### Suggestion: To reduce time for making various combinations and check for model's working state input voting duration in integer and once refer dataset in the jupyter notebook.
 ### EVM Fraud Detection Streamlit App
 This repository contains a Streamlit application designed to detect fraudulent voting records in Electronic Voting Machines (EVM). The app allows users to input details such as machine ID, vote choice, location, and voting duration, and then predicts whether the record is fraudulent or not.
-### Suggestion: To reduce time for making various combinations and get the desired results from model input voting duration in integer and once refer dataset in the jupyter notebook.
 ### Features
 User Input: Collects Machine ID, Vote Choice, Location, and Voting Duration from the user.
 Fraud Detection: Checks the input against a predefined dataset to identify potential fraudulent votes.
@@ -16,7 +16,7 @@ The dataset used in this application is defined in the code and consists of the 
 Machine_ID: Identifier for the voting machine.
 Vote_Choice: The choice made by the voter (A, B, C, D).
 Location: The location where the vote was cast (Loc1, Loc2, Loc3).
-Voting_Duration: Duration of the voting process in seconds.
+Voting_Duration: Duration of the voting process in seconds.(enter integer values)
 Fraudulent: Binary indicator of fraud (0 for No, 1 for Yes).
 ### How to run this app?
 * Set up the enviornment : $ pip install streamlit pandas
