@@ -1,3 +1,4 @@
+Deployment URL : https://evmfrauddetectionmodel-xcj7d6ggnxpjec4x4rmpy9.streamlit.app/
 ### EVM Fraud Detection Streamlit App
 This repository contains a Streamlit application designed to detect fraudulent voting records in Electronic Voting Machines (EVM). The app allows users to input details such as machine ID, vote choice, location, and voting duration, and then predicts whether the record is fraudulent or not.
 ### Features
@@ -33,16 +34,8 @@ and combines multiple weak learners to give strong classifiers.
 * XGBoostClassifier : It is  for its performance and speed, especially on structured/tabular data. It handles missing values 
 internally , prevents overfitting and improves generalization and it is comparatively efficient over other boosting
 algorithms.
-* Cross-validation Scores : Determination of cross-validation scores for RandomForestClassifier , AdaBoostClassifier and XGBoostClassifier ensured that model performance is stable and not dependent on train-test split , helped in tuning the parameters
-and provides reliable measure of predictive power for adaboost and also improved efficiency for XGBoost by maximum use of 
-availaible data and better estimation.
 ### Accuracy of different alogrithms applied
 * RandomForestClassifier : 100%
 * Logistic Regression Score : 60%
 * AdaBoostClassifier : 100%
 * XGBoost Classifier : 100%
-* Cross-validation scores for :
-XGBoostClassifier : [1.         1.         1.         0.92857143 0.85714286]
-AdaBoostClassifier : [1.         1.         1.         0.92857143 0.85714286]
-RandomForestClassifier : [1.         1.         1.         0.92857143 0.85714286]
-
