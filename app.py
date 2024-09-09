@@ -105,7 +105,7 @@ st.title('EVM Fraud Detection')
 machine_id = st.number_input("Enter Machine ID:", min_value=1, max_value=10)
 vote_choice = st.selectbox("Select Vote Choice:", ['A', 'B', 'C', 'D'])
 location = st.selectbox("Select Location:", ['Loc1', 'Loc2', 'Loc3'])
-voting_duration = st.number_input("Enter Voting Duration:", min_value=0.0)
+voting_duration = st.number_input("Enter Voting Duration(integer value):", min_value=0.0)
 
 if st.button('Check Fraudulent'):
     result = get_fraudulent_value(machine_id, vote_choice, location, voting_duration)
